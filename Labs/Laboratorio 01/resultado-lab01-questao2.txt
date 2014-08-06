@@ -1,0 +1,6 @@
+"Regiao" "Media.Salarial"
+"Centro-oeste" 5620.47368421053
+"Nordeste" 4565.70588235294
+"Sudeste" 3962.22717391304
+"Sul" 3657.53846153846
+"Norte" 2552.5
