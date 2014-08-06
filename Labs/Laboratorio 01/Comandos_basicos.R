@@ -49,7 +49,7 @@ x.positivos = x[x > 0] #vetor que vai de 1 a 5
 df = data.frame(X = -10:10, Y = 0:20) #atribuição
 df
 df.filtrado = df[df$X > 0,] #pega todas as linhas onde o valor eh maior que 0
-df.filtrado = subset(df, X > 0) subset(tabela, condicao) #igual ao anterior
+df.filtrado = subset(df, X > 0) #igual ao anterior
 df.filtrado
 
 #Um outro filtro usado eh o which, que retorna o indice dos elementos que
