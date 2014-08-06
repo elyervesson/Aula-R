@@ -52,7 +52,23 @@ df.filtrado = df[df$X > 0,] #pega todas as linhas onde o valor eh maior que 0
 df.filtrado = subset(df, X > 0) subset(tabela, condicao) #igual ao anterior
 df.filtrado
 
+#Um outro filtro usado eh o which, que retorna o indice dos elementos que
+#satisfazem a condição
 
+x = c( 1, -4, 3 , 5, -2, -5)
+which(x < 0) #deve retornar os indices 2, 5 e 6
+
+#LOOPS E ITERADORES
+
+#for
+for (i in <vetor>) {
+  ...
+}
+
+#while
+while (condicao) {
+  ...
+}
 
 
 
